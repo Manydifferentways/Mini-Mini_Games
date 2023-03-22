@@ -4,7 +4,7 @@ print("Which game do you want to play?")
 print("RPS (rock paper scissors)? Dice? or do you want to leave?")
 print("Choose:")
 c = str(input())
-    
+
 #Dice
 if c == str("Dice") or c == str("dice"):
         print("Roll a D6, D4, D12, D10, D8, D100 or Leave. Choose:")
@@ -27,7 +27,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D6
         elif q == str("Roll D6") or q == str("roll d6") or q == str("roll D6") or q == str("Roll d6") or q == str("d6") or q == str("D6"):
             #player
@@ -45,7 +45,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D4
         elif q == str("Roll D4") or q == str("roll d4") or q == str("roll D4") or q == str("Roll d4") or q == str("d4") or q == str("D4"):
             #player
@@ -63,7 +63,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D12
         elif q == str("Roll D12") or q == str("roll d12") or q == str("roll D12") or q == str("Roll d12") or q == str("d12") or q == str("D12"):
             #player
@@ -81,7 +81,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D10
         elif q == str("Roll D10") or q == str("roll d10") or q == str("roll D10") or q == str("Roll d10") or q == str("d10") or q == str("D10"):
             #player
@@ -99,7 +99,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D8
         elif q == str("Roll D8") or q == str("roll d8") or q == str("roll D8") or q == str("Roll d8") or q == str("d8") or q == str("D8"):
             #player
@@ -117,7 +117,7 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #D100
         elif q == str("Roll D100") or q == str("roll d100") or q == str("roll D100") or q == str("Roll d100") or q == str("d100") or q == str("D100"):
             #player
@@ -135,11 +135,11 @@ if c == str("Dice") or c == str("dice"):
                 print("tie")
             else:
                 print("error")
-                break
+
         #leave
         elif q == str("Leave") or  q == str("leave"):
             print("Leaving...")
-            break
+
 
     #rockpaperscissors
 elif c == str("RPS") or c == str("rps"):
@@ -159,7 +159,7 @@ elif c == str("RPS") or c == str("rps"):
             v = 4
         elif v == str("kill") or v == str("Kill"):
             print("that is not an option")
-            break
+        
         else:
             print("error")
 
@@ -196,7 +196,7 @@ elif c == str("RPS") or c == str("rps"):
             print("tie! try again")
         else:
             print("error")
-        break
+
 else:
         print("Leaving...")
-        break
+        
